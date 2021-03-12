@@ -4,7 +4,7 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-  azureConnection = "DefaultEndpointsProtocol=https;AccountName=naveenazurestore;AccountKey=NLNxbk2ElnaMahdhDl4a5cUucTLt1zQDU1eOznjYUmCaiIeJB6O+934iedXSmss+r5gDePmZE6y99X8zZ8AItA==;EndpointSuffix=core.windows.net";
+  azureConnection = "YourConnection";
   containerName = "upload-file";
   
 
